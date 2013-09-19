@@ -1,5 +1,5 @@
 /**
- * Search plugin for Ext.grid.GridPanel, Ext.grid.EditorGrid ver. 2.x or
+ * Search plugin for Ext.grid.GridPanel, Ext.grid.EditorGrid ver. 4.x or
  * subclasses of them
  * 
  * @author Ing. Jozef Sakalos
@@ -24,6 +24,12 @@
  * Changed in toolbar by Fabio Frijo, on April 6, 2012
  */
 
+/**
+ * Added by Antonio Muñiz on September 18, 2013:
+ *  - Force search fields (not grid columns)
+ *  - Total items display
+ *  - Event 'search' fired after every performed search
+ */
 Ext.define('Ext.ux.toolbar.GridSearching', {
     extend: "Ext.toolbar.Toolbar",
     alias: 'widget.gridsearchingbar',
