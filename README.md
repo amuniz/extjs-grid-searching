@@ -1,4 +1,4 @@
 extjs-grid-searching
 ====================
 
-ExtJS grid toolbar extension adding search capabilities.
+ExtJS grid toolbar extension adding search capabilities
